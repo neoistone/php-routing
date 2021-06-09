@@ -1,5 +1,5 @@
 {
-  "name": "neoistone/php-router",
+  "name": "neoistone/php-routing",
   "description": "Fast request router for PHP",
   "keywords": ["routing", "router"],
   "license": "BSD-3-Clause",
