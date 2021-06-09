@@ -10,7 +10,7 @@ Install
 To install with composer:
 
 ```sh
-composer require neoistone/php-router
+composer require neoistone/php-routing
 ```
 
 Requires PHP 5.4 or newer.
