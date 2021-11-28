@@ -1,5 +1,5 @@
 <?php
-namespace neoistone\http;
+namespace neoistone\http\test;
 /**
  * Class routers
  * @package system
