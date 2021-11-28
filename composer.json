@@ -1,23 +1,18 @@
 {
   "name": "neoistone/php-routing",
-  "description": "Fast request router for PHP",
+  "description": "Smiple Routing System PHP",
   "keywords": ["routing", "router"],
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Nikita Popov",
-      "email": "nikic@php.net"
-    },
-    {
-      "name": "Neoistone",
-      "email": "support@neoistone.net"
+      "name": "Manikanta sripadi",
+      "email": "manikantasripadi@neoistone.com"
     }
   ],
   "autoload": {
-    "psr-4": {
-      "Neoistone\\": "src/"
-    },
-    "files": ["src/functions.php"]
+    "classmap": [
+	      "src/class.env.php"
+    ]
   },
   "require": {
     "php": ">=5.4.0"
