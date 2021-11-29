@@ -1,24 +1,20 @@
 {
-  "name": "neoistone/php-routing",
-  "description": "Smiple Routing System PHP",
-  "keywords": ["routing", "router"],
-  "license": "BSD-3-Clause",
-  "authors": [
-    {
-      "name": "Manikanta sripadi",
-      "email": "manikantasripadi@neoistone.com"
-    }
-  ],
-  "autoload": {
-    "classmap": [
-	      "src/class.env.php"
-    ]
-  },
-  "require": {
-    "php": ">=5.4.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^4.8.35|~5.7"
-  },
-  "minimum-stability": "stable"
+    "name": "neoistone/php-routing",
+    "description": "Smiple Routing System PHP",
+    "authors": [
+        {
+            "name": "Neoistone",
+            "email": "dev@neoistone.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+	"classmap": [
+	   "src/class.env.php"
+         ]
+    },
+     "minimum-stability": "stable",
+     "license": "MIT"
 }
