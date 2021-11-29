@@ -1,20 +1,27 @@
 {
-    "name": "neoistone/routing",
+    "name": "neoistone/routin",
+    "type": "library",
     "description": "Smiple Routing System PHP",
+    "keywords": ["php","routing"],
+    "homepage": "https://neoistone.com",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Neoistone",
-            "email": "dev@neoistone.com"
+            "name": "Jordi Boggiano",
+            "email": "support@neoistone.com",
+            "homepage": "http://manikantasripadi.neoistone.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^7.0"
     },
     "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+	},
 	"classmap": [
 	   "src/class.env.php"
-         ]
-    },
-     "minimum-stability": "stable",
-     "license": "MIT"
+        ]
+    }
 }
