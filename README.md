@@ -80,6 +80,4 @@ Accept only numbers as parameter. Other characters will result in a 404 error
 
 All copyright reserved by [Neoistone Technologies][neoistone]
 
-
-[Author]: http://nikic.github.io
 [neoistone]: https://neoistone.com
