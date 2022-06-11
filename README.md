@@ -78,6 +78,6 @@ Accept only numbers as parameter. Other characters will result in a 404 error
 ?>
 ```
 
-[Neoistone Technologies][neoistone]
+[Neoistone][neoistone]
 
 [neoistone]: https://neoistone.com
