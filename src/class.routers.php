@@ -154,7 +154,7 @@ class Request {
             // But a matching path exists
             if($path_match_found){
                 http_response_code(405);
-                if (equal($api['1'],"api")){
+                if ($api['1'] == "api"){
                     header('Content-Type: application/json; charset=utf-8');
                     echo json_encode(array("error" => true, "code" => 405, "message" => "method not allowed"));
                 } else {
@@ -167,7 +167,7 @@ class Request {
                 }
             }else{
                 http_response_code(404);
-                if (equal($api['1'],"api")){
+                if ($api['1'] == "api"){
                     header('Content-Type: application/json; charset=utf-8');
                     echo json_encode(array("error" => true, "code" => 404, "message" => "invalid request"));
                 } else {
