@@ -78,6 +78,6 @@ Accept only numbers as parameter. Other characters will result in a 404 error
 ?>
 ```
 
-All copyright reserved by [Neoistone Technologies][neoistone]
+[Neoistone Technologies][neoistone]
 
 [neoistone]: https://neoistone.com
