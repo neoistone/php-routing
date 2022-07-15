@@ -1,5 +1,5 @@
 {
-    "name": "neoistone/routin",
+    "name": "neoistone/routing",
     "type": "library",
     "description": "Smiple Routing System PHP",
     "keywords": ["php","routing"],
@@ -21,7 +21,7 @@
             "Monolog": "src"
 	},
 	"classmap": [
-	   "src/class.env.php"
+	   "src/class.routers.php"
         ]
     }
 }
